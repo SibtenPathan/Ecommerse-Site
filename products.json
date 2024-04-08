@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Description of Product 1",
+      "price": "19.99",
+      "image": "images/product1.png",
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Description of Product 2",
+      "price": "29.99",
+      "image": "images/product2.png",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "description": "Description of Product 3",
+      "price": "39.99",
+      "image": "images/product3.png",
+      "stock": 75
+    },
+    {
+        "id": 4,
+        "name": "Watches",
+        "description": "Description of Product 3",
+        "price": "39.99",
+        "image": "images/product4.png",
+        "stock": 75
+      },
+      {
+        "id": 5,
+        "name": "Speakers",
+        "description": "Description of Product 3",
+        "price": "39.99",
+        "image": "images/product5.png",
+        "stock": 75
+      },
+      {
+        "id": 6,
+        "name": "Television",
+        "description": "Description of Product 3",
+        "price": "39.99",
+        "image": "images/product6.png",
+        "stock": 75
+      }
+  ]
+  

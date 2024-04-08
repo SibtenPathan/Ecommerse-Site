@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript eCommerce</title>
+<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+/* Custom CSS for underline hover effect */
+.nav-link:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body class="fs-5" style="background-color: #e6e6e6;">
+
+<div class="container-fluid bg-dark text-white d-flex justify-content-between align-items-center">
+    <span>Free shipping, 30-day return or refund guarantee.</span>
+    <div>
+        <button type="button" class="btn btn-dark">SIGN UP</button>
+        <button type="button" class="btn btn-dark">SIGN IN</button>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: white;">
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo2.jpg" alt="Avatar Logo" style="width:60%;"> 
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cart.html" class="nav-link add-to-cart-button" id="cartValue">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<section class="section-extra-product" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-flex flex-column" style="background-color: white;">
+          <div class="extra-text">
+            <p style="color: #007bff;">new year sale</p>
+            <h3>get an extra 50% off</h3>
+            <a href="#" class="btn btn-primary">Show now</a>
+          </div>
+          <div class="extra-img shadow mt-auto text-end">
+            <img src="images/laptop.png" alt="" class="img-fluid" style="max-height: 200px;" />
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex flex-column" style="background-color: white;">
+          <div class="extra-text">
+            <p style="color: #007bff;">new year sale</p>
+            <h3>40% discount on speakers</h3>
+            <a href="#" class="btn btn-primary">Show now</a>
+          </div>
+          <div class="extra-img shadow mt-auto text-end">
+            <img src="images/headphone.png" alt="" class="img-fluid" style="max-height: 200px;" />
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex flex-column" style="background-color: white;">
+          <div class="extra-text">
+            <p style="color: #007bff;">new year sale</p>
+            <h3>get an extra 50% off</h3>
+            <a href="#" class="btn btn-primary">Show now</a>
+          </div>
+          <div class="extra-img shadow mt-auto text-end">
+            <img src="images/mobiles.png" alt="" class="img-fluid" style="max-height: 200px;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section-policy">
+    <div class="container" style="background-color: white; padding: 20px;">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-truck-fast" style="font-size: 36px; color: #87CEEB;"></i>
+                        <h5 class="card-title">Worldwide Shipping</h5>
+                        <p class="card-text">Order above $100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-undo" style="font-size: 36px; color: #87CEEB;"></i>
+                        <h5 class="card-title">Easy 30 Day Returns</h5>
+                        <p class="card-text">Back Returns in 7 Days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-hand-holding-usd" style="font-size: 36px; color: #87CEEB;"></i>
+                        <h5 class="card-title">Money Back Guarantee</h5>
+                        <p class="card-text">Guarantee within 30-Days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fas fa-headset" style="font-size: 36px; color: #87CEEB;"></i>
+                        <h5 class="card-title">Easy Online Support</h5>
+                        <p class="card-text">24/7 Anytime support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-why-choose" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="container">
+        <h2>Why Choose Sibten Store</h2>
+        <p>
+            You should choose Sibten Store for an unparalleled shopping experience, where quality meets affordability, and customer satisfaction is our utmost priority.
+        </p>
+    </div>
+    <div style="margin-left: 60px;" class="container row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center" id="productContainer">
+    </div>    
+    
+</section>
+
+    <!-- Template for a product with Bootstrap classes -->
+    
+    <template id="productTemplate">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="imageContainer">
+                    <img class="card-img-top productImage" src="" alt="" />
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title productName"></h2>
+                    <div class="productRating text-warning">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-text productDescription"></p>
+                    <div class="productPriceElement">
+                        <p class="card-text productPrice"></p>
+                    </div>
+                    <div class="productStockElement d-flex">
+                        <p class="card-text productProperty">Total Stocks Available:</p>
+                        <p class="card-text productStock"></p>
+                    </div>
+                    <div class="productQuantityElement d-flex align-items-center">
+                        <p class="card-text productProperty mb-0">Quantity (Pieces):</p>
+                        <div class="stockElement d-flex ml-3">
+                            <button class="btn btn-outline-secondary cartIncrement">+</button>
+                            <p class="card-text productQuantity h3 mb-0 mx-2">1</p>
+                            <button class="btn btn-outline-secondary cartDecrement">-</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary add-to-cart-button">
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+
+    <div class="container">
+        <div class="row align-items-center" style="margin-top: 50px; margin-bottom: 50px;">
+            <div class="col-md-5">
+                <img src="images/below_image.png" alt="Sibten technical home page" class="img-fluid mx-auto d-block" />
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>1</p>
+                            <h3>Wide Selection</h3>
+                            <p>
+                                Sibten Store offers a diverse range of gadgets, ensuring you find what you need to elevate your lifestyle and meet your tech requirements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>2</p>
+                            <h3>Quality Assurance</h3>
+                            <p>
+                                Every gadget at Sibten Store undergoes rigorous quality checks, guaranteeing reliability and performance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>3</p>
+                            <h3>Competitive Prices</h3>
+                            <p>
+                                Enjoy great value with Sibten Store's competitive prices on high-quality gadgets.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>4</p>
+                            <h3>Expert Guidance</h3>
+                            <p>
+                                Our knowledgeable staff provides expert guidance, helping you choose the right gadget.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>5</p>
+                            <h3>Convenient Shopping</h3>
+                            <p>
+                                With Sibten Store, shopping for gadgets is easy and convenient.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="why-choose-div">
+                            <p>6</p>
+                            <h3>Excellent Service</h3>
+                            <p>
+                                Sibten Store is committed to providing excellent service to our customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="section-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <img src="images/logo2.jpg" alt="logo" class="img-fluid"  width="70%"/>
+                <p>
+                    Welcome to Sibten EcomStore, your ultimate destination for cutting-edge gadgets!
+                </p>
+                <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" class="img-fluid" />
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4>SHOPPING</h4>
+                <a href="#">Computer Store</a><br>
+                <a href="#">Laptop Store</a><br>
+                <a href="#">Accessories</a><br>
+                <a href="#">Sales & Discount</a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4>Experience</h4>
+                <a href="./contact.html">Contact Us</a><br>
+                <a href="#" target="_blank">Payment Method</a><br>
+                <a href="#" target="_blank">Delivery</a><br>
+                <a href="#" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4>NEWSLETTER</h4>
+                <p>Be the first to know about new arrivals, sales & promos!</p>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Your Email" />
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Design and Code by Pathan Sibten</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<script src="index.js"></script> 
+</html>
